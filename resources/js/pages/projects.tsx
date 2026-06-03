@@ -18,12 +18,6 @@ export default function Index({ projects, filters = {}}) {
         return () => clearTimeout(timeout);
     }, [search]);
 
-
-
-
-
-
-
     const programmingLanguages = usePage().props.programmingLanguages;
     const { auth } = usePage().props as any;
     return (
